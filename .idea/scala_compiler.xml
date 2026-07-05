@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="introtosclafx,introtosclafx.main,introtosclafx.test,prg2104_23029465_5519,prg2104_23029465_5519.main,prg2104_23029465_5519.test" />
+  </component>
+</project>

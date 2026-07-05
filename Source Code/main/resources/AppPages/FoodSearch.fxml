@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="717.0" style="-fx-background-color: #067ac2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dchumon.view.FoodSearchController">
+   <children>
+      <Label layoutX="64.0" layoutY="9.0" prefHeight="17.0" prefWidth="109.0" text="Search Food">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+      </Label>
+      <TableView fx:id="foodTableView" layoutY="39.0" prefHeight="371.0" prefWidth="717.0" style="-fx-background-color: #4f6677;">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="158.40004885196686" text="Name" />
+          <TableColumn fx:id="caloriesColumn" prefWidth="88.7999267578125" text="Calories (Kcal)" />
+          <TableColumn fx:id="proteinColumn" prefWidth="81.60003662109375" text="Protein (g)" />
+          <TableColumn fx:id="fatColumn" prefWidth="58.39996337890625" text="Fat (g)" />
+          <TableColumn fx:id="carbsColumn" prefWidth="107.20001220703125" text="Carbohydrates (g)" />
+          <TableColumn fx:id="addToMealColumn" prefWidth="121.60000610351562" text="Add to Meal" />
+            <TableColumn fx:id="quantityColumn" prefWidth="104.7999267578125" text="Total Quantity" />
+        </columns>
+      </TableView>
+      <TextField fx:id="searchField" layoutX="173.0" layoutY="7.0" prefHeight="25.0" prefWidth="314.0" />
+   </children>
+</Pane>

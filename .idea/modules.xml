@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PRG2104_23029465.iml" filepath="$PROJECT_DIR$/.idea/PRG2104_23029465.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.iml" filepath="$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.introtosclafx-build.iml" filepath="$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.introtosclafx-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PRG2104_23029465/introtosclafx.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="600.0" style="-fx-background-color: #317068;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dchumon.view.DonationHungerController">
+   <children>
+      <SplitPane layoutX="-6.0" prefHeight="142.0" prefWidth="607.0" style="-fx-background-color: #faf8f5;" />
+      <Text layoutX="173.0" layoutY="184.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Donation Hunger Project" />
+      <ImageView fitHeight="142.0" fitWidth="150.0" layoutX="239.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/heartylogo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="126.0" layoutY="206.0" style="-fx-font-size: 14px; -fx-font-style: italic;" text="All the funds of this Donation will proceed to Food Bank Malaysia." wrappingWidth="419.20001220703125" />
+      <TextField fx:id="donationAmount" alignment="TOP_CENTER" layoutX="223.0" layoutY="269.0" promptText="Enter Donation Amount" style="-fx-background-color: white;" />
+      <Button fx:id="donateNowButton" layoutX="245.0" layoutY="305.0" onAction="#handleDonateNow" style="-fx-font-size: 16px; -fx-background-color: #57a773; -fx-text-fill: white;" text="Donate Now" />
+      <Text fx:id="feedbackMessage" fill="green" layoutX="180.0" layoutY="350.0" style="-fx-font-size: 14px;" text="Thank you for your generosity!" visible="false" AnchorPane.bottomAnchor="29.17890625000001" AnchorPane.leftAnchor="201.0" AnchorPane.rightAnchor="205.0" AnchorPane.topAnchor="350.0" />
+      <Button fx:id="RM10btn" layoutX="192.0" layoutY="221.0" onAction="#handleRM10btnAction" style="-fx-font-size: 16px; -fx-background-color: #2677a3; -fx-text-fill: white;" text="RM10" />
+      <Button fx:id="RM20btn" layoutX="266.0" layoutY="221.0" onAction="#handleRM20btnAction" style="-fx-font-size: 16px; -fx-background-color: #2677a3; -fx-text-fill: white;" text="RM20" />
+      <Button fx:id="Rm50btn" layoutX="341.0" layoutY="221.0" onAction="#handleRM50btnAction" style="-fx-font-size: 16px; -fx-background-color: #2677a3; -fx-text-fill: white;" text="RM50" />
+      <ImageView fitHeight="104.0" fitWidth="110.0" layoutX="35.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/donationdrive.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="470.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/donation2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

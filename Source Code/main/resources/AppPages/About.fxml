@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #faf8f5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dchumon.view.AboutController">
+   <children>
+      <AnchorPane layoutY="142.0" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: ff6a6a;">
+         <children>
+            <TextArea fx:id="AboutText" layoutX="18.0" layoutY="24.0" style="-fx-font: #ffffff;" text="This Nutrition Tracker &amp; Database System is a digital tool designed to support healthy &#10;eating habits by providing users with access to a comprehensive nutrition database and &#10;an easy-to-use meal tracker. Developed in alignment with the United Nations Sustainable&#10;Development Goal 2: Zero Hunger, the application promotes informed food choices.&#10;&#10;What you can do:&#10;Explore detailed nutritional information for a wide variety of foods, add into daily &#10;meals in the meal tracker, and monitor their calorie and nutrient intake. In addition,&#10;the application includes features that raise awareness about hunger and provide &#10;options for donating to communities in need. &#10;&#10;&#10;Created and Designed by: @Dchumon" AnchorPane.bottomAnchor="56.79999999999998" AnchorPane.leftAnchor="17.600000000000023" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="24.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+               <effect>
+                  <Lighting diffuseConstant="1.77">
+                     <bumpInput>
+                        <ColorAdjust />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant>
+                           <color>
+                              <Color red="1.0" green="0.4156862795352936" blue="0.4156862795352936" />
+                           </color>
+                        </Light.Distant>
+                     </light>
+                  </Lighting>
+               </effect>
+            </TextArea>
+            <ImageView fitHeight="110.0" fitWidth="122.0" layoutX="478.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/nutri2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="142.0" fitWidth="145.0" layoutX="235.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/heartylogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: org.openjfx:javafx-base:21.0.4:win:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="org.openjfx" artifactId="javafx-base" version="21.0.4" baseVersion="21.0.4" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/21.0.4/javafx-base-21.0.4-win.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
